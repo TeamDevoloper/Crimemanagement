@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Creating user document</title>
+        <title>Untitled Document</title>
     </head>
 
     <body>
@@ -20,7 +20,6 @@
         $Password = $_POST['txtPassword'];
         move_uploaded_file($_FILES["txtFile"]["tmp_name"], "Documents/" . $_FILES["txtFile"]["name"]);
         
-
             $con = mysqli_connect("localhost", "root","","cms");
         
 
@@ -28,6 +27,7 @@
         
        mysqli_query($con,$sql);
         
+
         mysqli_close($con);
 
         echo '<script type="text/javascript">alert("Registration Completed Succesfully");window.location=\'index.php\';</script>';
