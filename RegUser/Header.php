@@ -25,7 +25,12 @@ if (!isset($_SESSION)) {
 
     <div id="templatemo_menu">
         <ul>
-            <li><a href="Index.php" class="current">Home</a></li>
+             <li><a href="Index.php" class="current">Home</a></li>
+            <li><a href="Profile.php">Profile</a></li>
+            <li><a href="Complain.php">Complain</a></li>
+            <li><a href="News.php">News</a></li>
+
+            <li><a href="Logout.php">Logout</a></li>
             
         </ul>    	
     </div> <!-- end of menu -->
